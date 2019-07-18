@@ -109,8 +109,12 @@ class WaitListPage extends Component {
   render() {
     return (
       <Container
-        fluid={true}
+        fluid
         style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
           backgroundColor: "#2F553C",
           color: "white",
           paddingTop: 20,
@@ -139,7 +143,7 @@ class WaitListPage extends Component {
                                 <Row style={{ paddingBottom: 10 }}>
                                   <Col xs={2} style={{ marginTop: "5%" }}>
                                     <h1 style={{ color: "white" }}>
-                                      {index < 1 ? null : index}
+                                      {index < 1 ? "IP" : index}
                                     </h1>
                                   </Col>
                                   <Col xs={4}>
@@ -169,12 +173,6 @@ class WaitListPage extends Component {
                                         <div>{item2.service2_time} min.</div>
                                       </Fragment>
                                     ) : null}
-                                    <div>
-                                      Status:{" "}
-                                      {item2.in_progress
-                                        ? "In Progress"
-                                        : "Waiting"}
-                                    </div>
                                     <h5 style={{ paddingTop: 5, color: "red" }}>
                                       {item2.mobile_join
                                         ? "JOINED FROM APP"

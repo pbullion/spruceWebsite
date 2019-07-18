@@ -10,6 +10,7 @@ class App extends Component {
       <Router>
         <Route path="/" exact component={HomePage} />
         <Route path="/waitlist" exact component={WaitListPage} />
+        <Route path="/store-waitlist" exact component={WaitListPage} />
       </Router>
     );
   }
