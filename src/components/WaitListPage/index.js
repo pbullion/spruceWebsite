@@ -1,9 +1,7 @@
-import React from 'react';
-import WaitListPage from './WaitListPage';
-import {MyContext} from "../../contexts/MyContext";
+import React from "react";
+import WaitListPage from "./WaitListPage";
+import { MyContext } from "../../contexts/MyContext";
 
 export default () => (
-    <MyContext.Consumer>
-        {() => <WaitListPage />}
-    </MyContext.Consumer>
-)
+  <MyContext.Consumer>{() => <WaitListPage />}</MyContext.Consumer>
+);

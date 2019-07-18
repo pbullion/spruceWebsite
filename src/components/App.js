@@ -5,14 +5,14 @@ import HomePage from "./HomePage";
 import WaitListPage from "./WaitListPage";
 
 class App extends Component {
-    render() {
-        return (
-            <Router>
-                <Route path="/" exact component={HomePage} />
-                <Route path="/waitlist" exact component={WaitListPage} />
-            </Router>
-        );
-    }
+  render() {
+    return (
+      <Router>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/waitlist" exact component={WaitListPage} />
+      </Router>
+    );
+  }
 }
 
 export default App;
