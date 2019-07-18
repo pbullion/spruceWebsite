@@ -1,9 +1,11 @@
 {
-  "name": "Spruce Barbershop Website",
+  "name": "spruce-barbershop-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
+    "moment": "^2.24.0",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
