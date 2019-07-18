@@ -39,9 +39,6 @@ class HomePage extends Component {
             showIndicators={false}
           >
             <div>
-              <img src={special} />
-            </div>
-            <div>
               <img src={spruce1} />
             </div>
             <div>

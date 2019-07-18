@@ -114,11 +114,12 @@ class WaitListPage extends Component {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: "flex-start",
           backgroundColor: "#2F553C",
           color: "white",
           paddingTop: 20,
-          height: "100%"
+          height: "100%",
+          width: "100vw"
         }}
       >
         <Row>
