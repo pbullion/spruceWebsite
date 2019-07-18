@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'NeutraText';
+  src: local('NeutraText'), url(../assets/fonts/NeutraText-Light.otf) format('woff');
+}
+
 .App {
   text-align: center;
+  font-family: 'NuetraText';
 }
 
 .App-logo {
@@ -31,3 +37,5 @@
     transform: rotate(360deg);
   }
 }
+
+
